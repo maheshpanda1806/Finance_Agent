@@ -1,0 +1,7 @@
+phi
+groq
+yfinance
+duckduckgo-search
+python-dotenv
+requests
+pandas

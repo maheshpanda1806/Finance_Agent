@@ -1,0 +1,69 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# -------------------------
+# Virtual environment
+# -------------------------
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env
+.env.*
+!.env.example  # Keep a safe example file if you want
+
+# -------------------------
+# IDE / Editor folders
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# -------------------------
+# Logs and debug
+# -------------------------
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+*.out
+
+# -------------------------
+# OS specific
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Build / packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+pip-wheel-metadata/
+
+# -------------------------
+# Jupyter / Notebooks
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_save
+
+.gitignore
